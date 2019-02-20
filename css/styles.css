@@ -1,0 +1,51 @@
+/* The new and improved CSS file */
+
+caption {color: #208000; font-size: 18pt; font-style: bold; text-align: center }
+div.c1 {text-align: center; border: 0px; padding: 25px; }
+div.top { background-color: lightgrey; width: 800px; border: 20px solid green; padding: 25px; margin: 75px; }
+div.footer {text-align: center}
+h1.c1 {color: yellow; font-size: 24pt; font-family: Arial, Helvetica; text-align: center}
+h2.c1 {color: #208000; font-size: 24pt; font-style: italic; text-align: center}
+h2.c2 {color: #208000; font-size: 14pt; font-style: italic; text-align: center}
+h3.c1 {color: #208000; text-align: center; font-style: italic}
+h3.subtitle {color: #208000; text-align: center; font-style: italic}
+hr.short { border-width: 3px; overflow: hidden; border-style: outset; }
+img.c1 {width: 561px; height: 98px;}
+img.c5 {border: 0px solid ; width: 88px; height: 31px;}
+img.c4 {padding:4px;border:1px solid #DDD}
+img { border: 0; }
+ol.c5 {list-style-type: circle;}
+ol.upper {list-style-type: upper-alpha;}
+ol.lower {list-style-type: lower-alpha;}
+ol.rupper {list-style-type: upper-roman;}
+ol.rlower {list-style-type: lower-roman;}
+span.revised { color: #208000; text-align: center; font-style: italic }
+span.caption {color: rgb(117, 128, 0);}
+span.c3 {width: 550px; color: rgb(51, 0, 153);}
+span.labels {color: rgb(0:, 0, 0);}
+span.c8 {text-decoration: underline;}
+table.banner {border: 5px; width: 800px; height: 100px; background-color: green; }
+table.main {width: 1100px; height: 701px; background-color: green; padding: 5px; }
+table.c4 {width: 613px; height: 570px;}
+table.c6 {width: 900px; height: 590px; text-align: left;}
+table.logos { border: 0; width: 95% }
+td.cols {padding-left: 40px; vertical-align: top; width: 30%; text-align: left;}
+td.c1 {padding-left: 40px; vertical-align: top; width: 30%; text-align: left;}
+td.c2 {padding-left: 5px; vertical-align: top; width: 150px; text-align: left;}
+td.c3 {text-align: center; font-size:larger; vertical-align: top; width: 400px;}
+td.c4 {vertical-align: top;}
+td.c4 {width: 30%;}
+td.c5 {color: #208000; vertical-align: top;}
+td.banner2 {text-align: center; font-size: 30pt; vertical-align: center; width: 400px; }
+tr.banner { text-align: center; }
+
+body {
+	background-color: #CCCCCC;
+}
+  
+:link { color: #FFFFFF }
+:visited { color: #333333 }
+:active { color: #208000 }
+
+
+/* End of file  */

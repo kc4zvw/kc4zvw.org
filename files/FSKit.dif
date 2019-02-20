@@ -1,0 +1,220 @@
+TABLE
+0,1
+"GNUMERIC"
+VECTORS
+0,18
+""
+TUPLES
+0,5
+""
+DATA
+0,0
+""
+-1,0
+BOT
+1,0
+"Component"
+1,0
+"Quanity"
+1,0
+"Description"
+1,0
+"Vendor"
+1,0
+"Part Number"
+-1,0
+BOT
+1,0
+"BOX"
+0,1
+V
+1,0
+"Bud enclosure: HP-3652-B"
+1,0
+"Mouser"
+1,0
+"563-HP-3652-B"
+-1,0
+BOT
+1,0
+"BT1"
+0,1
+V
+1,0
+"4.5 V dc dry battery holder (3 AAA)"
+1,0
+"Mouser"
+1,0
+"12BH431P-GR"
+-1,0
+BOT
+1,0
+"C1-C3"
+0,3
+V
+1,0
+"0.01 uF ceramic capacitor"
+1,0
+"Mouser"
+1,0
+"81-RPER71103K2K1A03B"
+-1,0
+BOT
+1,0
+"C4"
+0,1
+V
+1,0
+"0.1 uF ceramic capacitor"
+1,0
+"Mouser"
+1,0
+"81-RPER71H104K2P1A03"
+-1,0
+BOT
+1,0
+"J1 J2"
+0,2
+V
+1,0
+"3.5 mm stero phone jack"
+1,0
+"Mouser"
+1,0
+"806-STX-3100-3NB"
+-1,0
+BOT
+1,0
+"J3-J5"
+0,3
+V
+1,0
+"RCA phono jack"
+1,0
+"Mouser"
+1,0
+"161-9360E"
+-1,0
+BOT
+1,0
+"P1"
+0,1
+V
+1,0
+"Three pin header"
+1,0
+"junk box"
+1,0
+""
+-1,0
+BOT
+1,0
+"P2 P3"
+0,2
+V
+1,0
+"Two pin header"
+1,0
+"junk box"
+1,0
+""
+-1,0
+BOT
+1,0
+"Q1-Q3"
+0,3
+V
+1,0
+"2N7000 N-channel MOSFET"
+1,0
+"Mouser"
+1,0
+"512-2N7000D74Z"
+-1,0
+BOT
+1,0
+"R1 R5"
+0,2
+V
+1,0
+"10k ohm, 0.25 watt resistors"
+1,0
+"Mouser"
+1,0
+"291-10K-RC"
+-1,0
+BOT
+1,0
+"R2"
+0,1
+V
+1,0
+"50k ohm trimpot"
+1,0
+"Mouser"
+1,0
+"652-3309W-1-503"
+-1,0
+BOT
+1,0
+"R3"
+0,1
+V
+1,0
+"1M ohm, 0.25 watt resistor"
+1,0
+"Mouser"
+1,0
+"291-1M-RC"
+-1,0
+BOT
+1,0
+"R4"
+0,1
+V
+1,0
+"10M ohm, 0.25 watt resistor"
+1,0
+"Mouser"
+1,0
+"291-10M-RC"
+-1,0
+BOT
+1,0
+"T1"
+0,1
+V
+1,0
+"600 ohm 1:1 audio transformer"
+1,0
+"Mouser"
+1,0
+"42TL016RC"
+-1,0
+BOT
+1,0
+"U1"
+0,1
+V
+1,0
+"Atmel ATTiny45 microcontroller"
+1,0
+"Mouser"
+1,0
+"556-ATTINY45-20PU"
+-1,0
+BOT
+1,0
+"U2"
+0,1
+V
+1,0
+"TLC393 comparator"
+1,0
+"Mouser"
+1,0
+"595-TLC393CP"
+-1,0
+BOT
+-1,0
+EOD

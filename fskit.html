@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+  <title>The FSKit - A Simple Sound Card Interface for Radioteletype FSK</title>
+
+  <style type="text/css">
+    div.c1 {margin-left: 2em}
+    div.c2 {margin-left: 3.0em}
+    p { text-indent: 2.0em } 
+    tt { font-family: courier; }
+    td { font-family: helvetica, sans-serif; }
+    td.c1 { font-size:10pt;}
+    caption { font-family: helvetica, sans-serif; font-size: 16pt; text-align: left; }
+  </style>
+</head>
+
+<body>
+  <h1 class='main'>The FSKit by Doug Hall, K4DSP</h1>
+
+  <h2 class='c1'>Introduction:</h2>
+
+  <p class='c1'>The FSKit - A simple sound card interface for RTTY Frequency Shift Keying</p>
+
+  <img src="http://farm8.staticflickr.com/7029/6498643603_74c692bd08.jpg" alt="FSKit interface" hspace="45px" width="400px"
+height="300px">
+
+  <p class="c1">Add something else here</p>
+
+  <h2 class='c1'>Materials:</h2>
+
+  <div class="c2">
+  <table border=1 cellspacing="0" cellpadding="3">
+    <caption>
+      FSKit Parts Listing
+    </caption>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">Components</td>
+
+      <td valign="bottom" align="left" class="c1">Quanity</td>
+
+      <td valign="bottom" align="left" class="c1">Description</td>
+
+      <td valign="bottom" align="left" class="c1">Vendor</td>
+
+      <td valign="bottom" align="left" class="c1">Part Number</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">BOX</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">Bud enclosure: HP-3652-B</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">563-HP-3652-B</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">BT1</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">4.5 V dc dry battery holder (3 AAA)</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">12BH431P-GR</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">C1-C3</td>
+
+      <td valign="bottom" align="right" class="c1">3</td>
+
+      <td valign="bottom" align="left" class="c1">0.01 uF ceramic capacitor</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">81-RPER71103K2K1A03B</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">C4</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">0.1 uF ceramic capacitor</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">81-RPER71H104K2P1A03</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">J1, J2</td>
+
+      <td valign="bottom" align="right" class="c1">2</td>
+
+      <td valign="bottom" align="left" class="c1">3.5 mm stero phone jack</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">806-STX-3100-3NB</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">J3-J5</td>
+
+      <td valign="bottom" align="right" class="c1">3</td>
+
+      <td valign="bottom" align="left" class="c1">RCA phono jack</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">161-0360E</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">P1</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">Three pin header</td>
+
+      <td valign="bottom" align="left" class="c1">junk box</td>
+
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">P2, P3</td>
+
+      <td valign="bottom" align="right" class="c1">2</td>
+
+      <td valign="bottom" align="left" class="c1">Two pin header</td>
+
+      <td valign="bottom" align="left" class="c1">junk box</td>
+
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">Q1-Q3</td>
+
+      <td valign="bottom" align="right" class="c1">3</td>
+
+      <td valign="bottom" align="left" class="c1">2N7000 N-channel MOSFET</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">512-2N7000D74Z</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">R1, R5</td>
+
+      <td valign="bottom" align="right" class="c1">2</td>
+
+      <td valign="bottom" align="left" class="c1">10k ohm, 0.25 watt resistors</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">291-10K-RC</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">R2</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">50k ohm trimpot</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">652-3309W-1-503</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">R3</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">1M ohm, 0.25 watt resistor</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">291-1M-RC</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">R4</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">10M ohm, 0.25 watt resistor</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">291-10M-RC</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">T1</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">600 ohm 1:1 audio transformer</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">42TL016RC</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">U1</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">Atmel ATTiny45 microcontroller</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">556-ATTINY45-20PU</td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" align="left" class="c1">U2</td>
+
+      <td valign="bottom" align="right" class="c1">1</td>
+
+      <td valign="bottom" align="left" class="c1">TLC393 comparator</td>
+
+      <td valign="bottom" align="left" class="c1">Mouser</td>
+
+      <td valign="bottom" align="left" class="c1">595-TLC393CP</td>
+    </tr>
+  </table>
+  </div>
+
+  <p>Download files:</p>
+
+  <ul>
+    <li><a href="files/FSKit.dif">parts list (DIF)</a></li>
+
+    <li><a href="files/FSKit.csv">parts list (comma seperated values)</a></li>
+
+    <li><a href="files/FSKit.xls">parts list (Excell)</a></li>
+  </ul>
+
+  <p class="c1">add something else here</p>
+
+  <h2 class='c1'>Build Notes:</h2>
+
+  <ul>
+    <li><a href="index.html">Blog entry</a> nothing yet!</li>
+  </ul>
+
+  <h2 class='c1'>Operation Notes:</h2>
+
+  <p class="c1">add something here</p>
+
+  <h2 class='c1'>References:</h2>
+
+  <ol>
+    <li><a href="http://k4dsp.homeip.net/~doug/fskit">Doug Hall</a> home page</li>
+
+    <li><a href="http://winavr.sourceforge.net/">WinAVR</a> -- Software development tools for the Atmel AVR microprocessors</li>
+
+    <li><a href="http://www.arrl.org/files/file/QST%20Binaries/Aug2011/QS0811Hall(rev1).zip">Firmware</a> -- revision 1</li>
+
+    <li><a href="http://hamsoft.ca/pages/mmtty.php">MMTTY</a> by Makoto Mori, JE3HHT -- RTTY with Windows and Soundcard</li>
+  </ol>
+
+  <div class="c1">
+    <a href="index.html">return to main menu</a>
+  </div>
+
+  <hr>
+  Revised: Tuesday, July 02, 2013 at 14:41:02 PM (EDT)
+</body>
+</html>

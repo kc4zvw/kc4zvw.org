@@ -1,0 +1,31 @@
+ General Listing of Tools
+--------------------------
+
+     1  [L]     ARRL Handbook
+     2  [ ]     Bread-board and test leads
+     3  [ ]     Calculator
+     4  [?]     Capacitor meter
+     5  [ ]     Catalogs
+     6  [L]     Dremel tool & stand
+     7  [L]     Electric drill
+     8  [L]     Frequency counter
+     9  [@]     Junk boxes
+    10  [ ]     Laboratory notebooks and online docs
+    11  [L]     Laboratory power supply
+    12  [ ]     Microscope
+    13  [ ]     Multimeter (DVM)
+    14  [ ]     Needle-nose pliers
+    15  [L]     Oscilloscope
+    16  [ ]     Pliers, connector
+    17  [L]     RF frequency generator
+    18  [P]     Shortwave receiver
+    19  [ ]     Small wrenches
+    20  [ ]     Software
+    21  [ ]     Solder wick & puller
+    22  [ ]     Solder, rosin core
+    23  [ ]     Temperture-controlled soldering iron
+    24  [L]     Threaded taps
+
+
+----
+Revised: Sunday, April 22, 2018 at 14:06:50 PM (EDT)

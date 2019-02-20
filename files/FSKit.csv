@@ -1,0 +1,17 @@
+Component,Quanity,Description,Vendor,"Part Number"
+BOX,1,"Bud enclosure: HP-3652-B",Mouser,563-HP-3652-B
+BT1,1,"4.5 V dc dry battery holder (3 AAA)",Mouser,12BH431P-GR
+C1-C3,3,"0.01 uF ceramic capacitor",Mouser,81-RPER71103K2K1A03B
+C4,1,"0.1 uF ceramic capacitor",Mouser,81-RPER71H104K2P1A03
+"J1 J2",2,"3.5 mm stero phone jack",Mouser,806-STX-3100-3NB
+J3-J5,3,"RCA phono jack",Mouser,161-9360E
+P1,1,"Three pin header","junk box",
+"P2 P3",2,"Two pin header","junk box",
+Q1-Q3,3,"2N7000 N-channel MOSFET",Mouser,512-2N7000D74Z
+"R1 R5",2,"10k ohm, 0.25 watt resistors",Mouser,291-10K-RC
+R2,1,"50k ohm trimpot",Mouser,652-3309W-1-503
+R3,1,"1M ohm, 0.25 watt resistor",Mouser,291-1M-RC
+R4,1,"10M ohm, 0.25 watt resistor",Mouser,291-10M-RC
+T1,1,"600 ohm 1:1 audio transformer",Mouser,42TL016RC
+U1,1,"Atmel ATTiny45 microcontroller",Mouser,556-ATTINY45-20PU
+U2,1,"TLC393 comparator",Mouser,595-TLC393CP

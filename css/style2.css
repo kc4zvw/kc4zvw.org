@@ -3,7 +3,8 @@
 body { background-color:#B0C4DE; }
 
 #img.format{ width: 25%; }
-div.c1 { text-align: center }
+div.top { width: 1024px; text-align: center }
+div.c1 { width: 1024px; text-align: center }
 div.c2 { margin-left: 2em }
 h1.main { color: #FFFF00; text-align: center }
 h2.c1 { color: green }

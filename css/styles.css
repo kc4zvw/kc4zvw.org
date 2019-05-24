@@ -1,8 +1,11 @@
 /* The new and improved CSS file */
 
-caption {color: #208000; font-size: 18pt; font-style: bold; text-align: center }
+div.container6 { display: flex; align-items: center; justify-content: center }
+div.container6 p { margin: 0 }
+caption {color: #208000; font-size: 18pt; font-style: oblique; text-align: center }
 div.c1 {text-align: center; border: 0px; padding: 25px; }
-div.top { background-color: lightgrey; width: 800px; border: 20px solid green; padding: 25px; margin: 75px; }
+div.c2 {margin-left:auto; margin-right:auto; width: 100%; border: 0px; }
+div.top { background-color: lightgrey; width: 800px; border: 20px solid green; padding: 25px; margin: 75px; margin-left:auto; margin-right:auto; }
 div.footer {text-align: center}
 h1.c1 {color: yellow; font-size: 24pt; font-family: Arial, Helvetica; text-align: center}
 h2.c1 {color: #208000; font-size: 24pt; font-style: italic; text-align: center}
@@ -13,22 +16,24 @@ hr.short { border-width: 3px; overflow: hidden; border-style: outset; }
 img.c1 {width: 561px; height: 98px;}
 img.c5 {border: 0px solid ; width: 88px; height: 31px;}
 img.c4 {padding:4px;border:1px solid #DDD}
-img { border: 0; }
-ol.c5 {list-style-type: circle;}
-ol.upper {list-style-type: upper-alpha;}
-ol.lower {list-style-type: lower-alpha;}
+img { border: 0px; }
+ol.circle {list-style-type: circle;}
+ol.square {list-style-type: square;}
+ol.upper  {list-style-type: upper-alpha;}
+ol.lower  {list-style-type: lower-alpha;}
 ol.rupper {list-style-type: upper-roman;}
 ol.rlower {list-style-type: lower-roman;}
+p.footer { text-align: center; }
 span.revised { color: #208000; text-align: center; font-style: italic }
 span.caption {color: rgb(117, 128, 0);}
 span.c3 {width: 550px; color: rgb(51, 0, 153);}
-span.labels {color: rgb(0:, 0, 0);}
+span.labels {color: rgb(3, 3, 3);}
 span.c8 {text-decoration: underline;}
-table.banner {border: 5px; width: 800px; height: 100px; background-color: green; }
-table.main {width: 1100px; height: 701px; background-color: green; padding: 5px; }
+table.banner {border: 5px; width: 800px; height: 100px; background-color: green; margin-left:auto; margin-right:auto; }
+table.main {width: 1100px; height: 701px; background-color: green; padding: 5px; margin-left:auto; margin-right:auto; }
 table.c4 {width: 613px; height: 570px;}
 table.c6 {width: 900px; height: 590px; text-align: left;}
-table.logos { border: 0; width: 95% }
+table.logos { margin: 0; border: 0; width: 1024px; margin-left:auto; margin-right:auto; }
 td.cols {padding-left: 40px; vertical-align: top; width: 30%; text-align: left;}
 td.c1 {padding-left: 40px; vertical-align: top; width: 30%; text-align: left;}
 td.c2 {padding-left: 5px; vertical-align: top; width: 150px; text-align: left;}
@@ -48,4 +53,4 @@ body {
 :active { color: #208000 }
 
 
-/* End of file  */
+/* End of File  */
